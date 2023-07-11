@@ -7,7 +7,7 @@ This is a repository to learn github in advance!
 * Updated Counter Page
 * 
 
-## Steps
+## Steps for a new project
 
 1. Create a new Github repository (it can be private or public)
 1. add a readme file to it
@@ -29,6 +29,12 @@ This is a repository to learn github in advance!
 1. OPTIONAL: git status, git fetch, git pull / OR / VS: fetch, pull
 1. git push / OR / VS: Push or Sync to do it all in one go
 
+## New Branch / Switch Branch
+
+1. git switch -c "new-branch-name" / OR / VS: 3 dots, new branch, name and done
+1. check git status to confirm you are in new branch
+1. git switch new-branch-name / main - changes to specified branch
+
 ## git commands
 
 * git clone "url"
@@ -38,3 +44,15 @@ This is a repository to learn github in advance!
 * git fetch
 * git pull
 * git push
+* git switch -c "new-branch-name"
+* git switch new-branch-name / main
+* git branch (list of branches)
+* git branch -d branch-name / git branch -D branch-name
+* git tag -s "version" -m "release title message"
+* git tag (list of tags)
+* git push origin --tags (push tags to server from local)
+
+## git functions to use
+
+* issues: create issues, set assignee like in a ticketing system, add comments, close issues, etc.
+* release/pre-release: versions, tags, version names, etc.
